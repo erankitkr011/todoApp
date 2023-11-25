@@ -6,7 +6,7 @@ input.addEventListener('keyup',function(e){
         li.id="li";
         const chkBox=document.createElement('input');
         chkBox.type="checkbox";
-        chkBox.style.width="20px"; 
+        chkBox.style.width="20px";
         chkBox.style.height="20px";
         chkBox.addEventListener('change',function(){
             if(this.checked){
